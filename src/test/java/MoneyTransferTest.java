@@ -1,12 +1,12 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ru.netology.DashboardPage;
-import ru.netology.DataHelper;
-import ru.netology.LoginPage;
+import ru.netology.pages.DashboardPage;
+import ru.netology.data.DataHelper;
+import ru.netology.pages.LoginPage;
 
 import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.netology.DataHelper.*;
+import static ru.netology.data.DataHelper.*;
 
 public class MoneyTransferTest {
     DashboardPage dashboardPage;
